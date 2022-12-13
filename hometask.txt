@@ -1,1 +1,13 @@
-В ветке demo были смерджены ветки hat, buttons и boots, в то время как в ветке master, согласно первому пункту задания, смерджены удаленная ветка hat и локальная ветка boots_buttons. При этом, конечно, так как смердживание веток boots и buttons сначала в одну ветку boots_buttons, а затем в master, равносильно их соединению сразу с веткой hat. Поэтому изображение в файле human.txt одинаковое.
+По выполнении третьего шага задания в ветке master видно 11 коммитов Комментарии из них, в хронологическом порядке:
+
+init
+heat added
+boots
+README added
+dots
+fix readme
+Merge remote-tracking branch 'origin/boots' into boots_buttons
+Merge remote-tracking branch 'origin/buttons' into boots_buttons
+Merge remote-tracking branch 'origin/hat'
+Merge branch 'origin/boots_buttons'
+hometask.txt added - explanation of the differences between master and demo.
